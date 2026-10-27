@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="拾光烘焙">
+  <defs>
+    <linearGradient id="gGold" x1="20" y1="18" x2="62" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#E8D5A3"/><stop offset="55%" stop-color="#D4A84B"/><stop offset="100%" stop-color="#B8862E"/>
+    </linearGradient>
+    <linearGradient id="gCrust" x1="18" y1="50" x2="58" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#C4785A"/><stop offset="100%" stop-color="#A85A42"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(0,0)">
+    <circle cx="40" cy="40" r="38" fill="#F7F1E8"/>
+    <circle cx="40" cy="40" r="34.5" fill="none" stroke="#E8D5A3" stroke-width="1.2" opacity=".7"/>
+    <path d="M18 48 C22 34, 34 26, 46 28 C40 34, 34 40, 30 48 Z" fill="url(#gCrust)" opacity=".9"/>
+    <path d="M24 50 C28 38, 38 30, 52 30 C46 36, 40 42, 36 50 Z" fill="#D4A84B" opacity=".85"/>
+    <path d="M30 52 C34 42, 42 34, 56 34 C50 40, 46 46, 42 52 Z" fill="#E8D5A3"/>
+    <g stroke="url(#gGold)" stroke-linecap="round" fill="none">
+      <path d="M40 14 V22" stroke-width="2.2"/>
+      <path d="M28 18 L32 24" stroke-width="1.8" opacity=".85"/>
+      <path d="M52 18 L48 24" stroke-width="1.8" opacity=".85"/>
+      <path d="M22 26 L28 30" stroke-width="1.5" opacity=".65"/>
+      <path d="M58 26 L52 30" stroke-width="1.5" opacity=".65"/>
+    </g>
+    <circle cx="40" cy="20" r="3.2" fill="#D4A84B"/>
+    <circle cx="40" cy="20" r="6" fill="#D4A84B" opacity=".22"/>
+  </g>
+  <text x="96" y="38" font-family="Noto Serif SC, Songti SC, serif" font-size="26" font-weight="700" letter-spacing="0.18em" fill="#2A1F1A">拾光烘焙</text>
+  <text x="98" y="58" font-family="Noto Sans SC, PingFang SC, sans-serif" font-size="10" letter-spacing="0.32em" fill="#8A7460">SHIGUANG BAKERY</text>
+</svg>

@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="zh-CN" class="no-js">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>拾光烘焙 · 把晨光揉进面团 | 拾光烘焙有限公司</title>
+<meta name="description" content="拾光烘焙有限公司：精品蛋糕、手工面包、法式糕点与定制甜品。以工坊匠心，把片刻光阴做成可分享的甜。">
+<meta name="theme-color" content="#2A1F1A">
+<link rel="icon" href="brand/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="brand/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="brand/logo-mark.png">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.className='js';</script>
+</head>
+<body>
+<canvas id="gl" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-in">
+    <a class="brand" href="#hero" aria-label="拾光烘焙 首页">
+      <svg class="logo-mark" viewBox="0 0 80 80" aria-hidden="true">
+        <circle class="lm-bg" cx="40" cy="40" r="38"/>
+        <circle class="lm-ring" cx="40" cy="40" r="34.5" fill="none" stroke-width="1.2"/>
+        <path class="lm-crust" d="M18 48 C22 34, 34 26, 46 28 C40 34, 34 40, 30 48 Z"/>
+        <path class="lm-mid" d="M24 50 C28 38, 38 30, 52 30 C46 36, 40 42, 36 50 Z"/>
+        <path class="lm-top" d="M30 52 C34 42, 42 34, 56 34 C50 40, 46 46, 42 52 Z"/>
+        <g class="lm-rays" fill="none" stroke-linecap="round">
+          <path d="M40 14 V22" stroke-width="2.2"/>
+          <path d="M28 18 L32 24" stroke-width="1.8" opacity=".85"/>
+          <path d="M52 18 L48 24" stroke-width="1.8" opacity=".85"/>
+        </g>
+        <circle class="lm-orb" cx="40" cy="20" r="3.2"/>
+      </svg>
+      <span class="brand-txt"><b>拾光烘焙</b><small>SHIGUANG</small></span>
+    </a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#about">关于拾光</a>
+      <a href="#products">产品</a>
+      <a href="#craft">工艺</a>
+      <a href="#gallery">作品</a>
+      <a href="#contact">联系我们</a>
+    </nav>
+    <a class="btn btn-sm nav-cta" href="#contact">预约定制</a>
+    <button class="nav-toggle" aria-label="打开菜单" aria-expanded="false"><span></span><span></span></button>
+  </div>
+  <div class="nav-drawer" id="drawer">
+    <a href="#about">关于拾光</a>
+    <a href="#products">产品</a>
+    <a href="#craft">工艺</a>
+    <a href="#gallery">作品</a>
+    <a href="#contact" class="drawer-cta">预约定制</a>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="hero">
+  <div class="hero-fallback" aria-hidden="true"></div>
+  <div class="hero-veil" aria-hidden="true"></div>
+  <div class="hero-inner container">
+    <p class="eyebrow light"><i></i>蛋糕 · 面包 · 糕点 · 定制</p>
+    <h1 class="hero-title">
+      <span class="line"><span>把晨光，</span></span>
+      <span class="line"><span>揉进<em>面团</em>。</span></span>
+    </h1>
+    <p class="hero-sub">拾光烘焙深耕精品蛋糕与手工面包，以工坊温度与克制美学，把片刻光阴做成可分享的甜与香。</p>
+    <div class="hero-actions">
+      <a class="btn btn-gold" href="#products">探索产品<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      <a class="btn btn-ghost" href="#gallery">查看作品</a>
+    </div>
+  </div>
+  <div class="hero-hud" aria-hidden="true">
+    <span class="hud-l">SHIGUANG · GATHERED LIGHT</span>
+    <span class="hud-r">拾 · 光 · 烘 · 焙</span>
+  </div>
+  <div class="hero-foot container">
+    <ul class="hero-stats" aria-label="关键数字（示例）">
+      <li><b>8+</b><span>年匠心烘焙</span></li>
+      <li><b>120+</b><span>常备品项</span></li>
+      <li><b>4</b><span>产品主线</span></li>
+    </ul>
+    <a class="scroll-cue" href="#about" aria-label="向下滚动"><span>SCROLL</span><i></i></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about sec-cream" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-copy">
+        <p class="eyebrow"><i></i>关于拾光 · ABOUT</p>
+        <h2 class="display reveal-lines">拾，是拾起片刻；<br>光，是把温度交给<span class="accent">面团</span>。</h2>
+        <p class="lead reveal">拾光烘焙有限公司专注精品蛋糕、手工面包与法式糕点。我们相信真正的高级，不是甜腻堆砌，而是黄油的香、焦糖的边、以及出炉那一刻的光。</p>
+        <p class="lead reveal">从选粉、发酵到裱花与定制，我们以「真实、温暖、可分享」为原则，把工坊日常做成可被记住的味道。</p>
+        <p class="note reveal">* 公司介绍为品牌示意文案，可替换为正式简介。</p>
+        <dl class="about-values reveal-stagger">
+          <div><dt>静奢</dt><dd>奶油、可可与黄油金，克制而不寡淡</dd></div>
+          <div><dt>工坊</dt><dd>看得见的层叠与火候，不做流水线伪装</dd></div>
+          <div><dt>可分享</dt><dd>不只是甜品，而是值得停留的片刻</dd></div>
+        </dl>
+      </div>
+      <div class="about-media">
+        <figure class="am-main reveal-img"><img src="img/about-atelier.webp" alt="烘焙工坊出炉氛围" loading="lazy" width="1400" height="1120"></figure>
+        <figure class="am-side reveal-img"><img src="img/about-hands.webp" alt="揉面与匠人手作" loading="lazy" width="1200" height="893"></figure>
+        <div class="am-seal" aria-hidden="true"><span>拾</span><span>光</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section class="products sec-cocoa" id="products">
+  <div class="container">
+    <div class="sec-head light">
+      <p class="eyebrow light"><i></i>产品 / PRODUCTS</p>
+      <h2 class="display reveal-lines">四条产品线，<br>覆盖「甜 · 香 · 层 · 礼」。</h2>
+      <p class="lead reveal">从日常面包到庆典蛋糕与企业定制，拾光提供可组合的烘焙产品矩阵。</p>
+    </div>
+    <div class="biz-grid reveal-stagger">
+      <article class="biz-card" id="prod-cake">
+        <figure><img src="img/prod-cake.webp" alt="精品蛋糕" loading="lazy" width="1400" height="1030"><figcaption>01 · 精品蛋糕</figcaption></figure>
+        <div class="biz-body">
+          <h3>精品蛋糕</h3>
+          <p>生日、纪念日与下午茶场景。慕斯、戚风与巧克力系列，强调干净的口味层次与克制裱花。</p>
+          <ul><li>经典与季节限定</li><li>小尺寸双人款</li><li>低糖选项可询</li></ul>
+        </div>
+      </article>
+      <article class="biz-card" id="prod-bread">
+        <figure><img src="img/prod-bread.webp" alt="手工面包" loading="lazy" width="1400" height="933"><figcaption>02 · 手工面包</figcaption></figure>
+        <div class="biz-body">
+          <h3>手工面包</h3>
+          <p>天然酵种与长时发酵。酸种欧包、吐司与全麦系列，追求香气与可切片的日常感。</p>
+          <ul><li>每日新鲜出炉</li><li>酸种 / 软欧</li><li>企业早餐订制</li></ul>
+        </div>
+      </article>
+      <article class="biz-card" id="prod-pastry">
+        <figure><img src="img/prod-pastry.webp" alt="法式糕点" loading="lazy" width="1400" height="933"><figcaption>03 · 法式糕点</figcaption></figure>
+        <div class="biz-body">
+          <h3>法式糕点</h3>
+          <p>可颂、丹麦与甜点小点。层层酥皮与黄油香，适合咖啡搭配与礼盒组合。</p>
+          <ul><li>可颂与丹麦</li><li>下午茶拼盘</li><li>周末限定</li></ul>
+        </div>
+      </article>
+      <article class="biz-card biz-wide" id="prod-custom">
+        <figure><img src="img/prod-custom.webp" alt="定制甜品" loading="lazy" width="1400" height="1277"><figcaption>04 · 定制服务</figcaption></figure>
+        <div class="biz-body">
+          <h3>定制 · 礼赠 · 活动</h3>
+          <p>婚礼甜品台、品牌联名、企业伴手礼与活动茶歇。从口味研发到视觉呈现，陪跑完整交付。以下为示意服务范围，可按实际业务替换。</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- CRAFT -->
+<section class="craft sec-cream" id="craft">
+  <div class="container">
+    <div class="sec-head">
+      <p class="eyebrow"><i></i>工艺 · CRAFT</p>
+      <h2 class="display reveal-lines">从一勺面粉，<br>到一炉<span class="accent">光</span>。</h2>
+      <p class="lead reveal">我们把流程写清楚，是为了让味道可被信任——而不是神秘化。</p>
+    </div>
+    <ol class="craft-steps reveal-stagger">
+      <li>
+        <figure><img src="img/craft-01.webp" alt="选粉与称量" loading="lazy" width="1200" height="675"></figure>
+        <div>
+          <span>01</span>
+          <h3>选材</h3>
+          <p>面粉、黄油与巧克力按批次品控；季节水果只取成熟窗口。</p>
+        </div>
+      </li>
+      <li>
+        <figure><img src="img/craft-02.webp" alt="发酵与整形" loading="lazy" width="1200" height="798"></figure>
+        <div>
+          <span>02</span>
+          <h3>发酵与层叠</h3>
+          <p>长时低温发酵与酥皮折叠，留给面团呼吸的时间。</p>
+        </div>
+      </li>
+      <li>
+        <figure><img src="img/craft-03.webp" alt="裱花与收尾" loading="lazy" width="1200" height="800"></figure>
+        <div>
+          <span>03</span>
+          <h3>火候与收尾</h3>
+          <p>出炉色泽与焦香边是标准；裱花克制，让主体风味说话。</p>
+        </div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery sec-butter" id="gallery">
+  <div class="container">
+    <div class="sec-head">
+      <p class="eyebrow"><i></i>作品陈列 · GALLERY</p>
+      <h2 class="display reveal-lines">把味道做成<br>可被记住的<span class="accent">光影</span>。</h2>
+      <p class="lead reveal">以下为示意作品卡片，用于呈现站点质感与信息架构，可替换为真实菜单与客片。</p>
+    </div>
+    <div class="case-grid reveal-stagger">
+      <article class="case-card case-lg">
+        <img src="img/case-01.webp" alt="莓果杯子蛋糕" loading="lazy" width="1066" height="1600">
+        <div class="case-meta">
+          <span class="tag">精品蛋糕</span>
+          <h3>莓果光午 · 示意</h3>
+          <p>轻奶油与当季莓果，适合双人下午茶。</p>
+        </div>
+      </article>
+      <article class="case-card">
+        <img src="img/case-02.webp" alt="糕点特写" loading="lazy" width="1200" height="1500">
+        <div class="case-meta">
+          <span class="tag">法式糕点</span>
+          <h3>黄油层叠 · 示意</h3>
+          <p>可颂与丹麦的周末限定拼盘。</p>
+        </div>
+      </article>
+      <article class="case-card">
+        <img src="img/case-03.webp" alt="甜品摆盘" loading="lazy" width="1066" height="1600">
+        <div class="case-meta">
+          <span class="tag">定制</span>
+          <h3>庆典甜台 · 示意</h3>
+          <p>婚礼与品牌活动的迷你甜品组合。</p>
+        </div>
+      </article>
+      <article class="case-card case-wide">
+        <img src="img/case-04.webp" alt="巧克力与烘焙氛围" loading="lazy" width="1280" height="1600">
+        <div class="case-meta">
+          <span class="tag">手工面包</span>
+          <h3>可可与麦香 · 示意</h3>
+          <p>酸种欧包与巧克力系列的工坊陈列。</p>
+        </div>
+      </article>
+    </div>
+    <p class="note center reveal">* 作品名称与描述均为占位示意，非真实菜单项目。</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact sec-ink" id="contact">
+  <div class="contact-bg" aria-hidden="true"><img src="img/contact.webp" alt="" loading="lazy"></div>
+  <div class="container contact-in">
+    <div class="contact-copy">
+      <p class="eyebrow light"><i></i>联系我们 · CONTACT</p>
+      <h2 class="display reveal-lines">想定制一盒<br>属于此刻的<span class="accent-gold">甜</span>？</h2>
+      <p class="lead reveal">欢迎就蛋糕定制、企业礼赠、茶歇合作或门店加盟意向与我们联系。以下联系方式为<strong>示意占位</strong>，可替换为真实信息。</p>
+      <ul class="contact-list reveal">
+        <li><span>电话</span><a href="tel:4009000000">400-900-0000（示意）</a></li>
+        <li><span>邮箱</span><a href="mailto:hello@shiguang-baking.example">hello@shiguang-baking.example（示意）</a></li>
+        <li><span>地址</span><em>示例市 · 示例区 · 麦香路 28 号（示意）</em></li>
+        <li><span>时间</span><em>每日 09:00–20:00（示意）</em></li>
+      </ul>
+      <p class="note light reveal">* 联系方式、地址均为虚构占位，请替换后再对外发布。</p>
+    </div>
+    <form class="contact-form reveal" action="#" method="post" onsubmit="return false;">
+      <label>您的称呼<input type="text" name="name" placeholder="例如：李女士" autocomplete="name"></label>
+      <label>联系方式<input type="text" name="reach" placeholder="手机或微信" autocomplete="tel"></label>
+      <label>意向类型
+        <select name="type">
+          <option>蛋糕定制</option>
+          <option>企业礼赠 / 茶歇</option>
+          <option>面包长期订购</option>
+          <option>合作咨询</option>
+          <option>其他</option>
+        </select>
+      </label>
+      <label>简要说明<textarea name="msg" rows="4" placeholder="人数、日期、口味偏好或想解决的问题"></textarea></label>
+      <button class="btn btn-gold" type="submit">发送意向（示意）</button>
+      <p class="form-note">表单仅作界面示意，不会实际上传数据。</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-in">
+    <div class="ft-brand">
+      <svg class="logo-mark sm" viewBox="0 0 80 80" aria-hidden="true">
+        <circle cx="40" cy="40" r="38" fill="#F7F1E8"/>
+        <path d="M18 48 C22 34, 34 26, 46 28 C40 34, 34 40, 30 48 Z" fill="#C4785A"/>
+        <path d="M24 50 C28 38, 38 30, 52 30 C46 36, 40 42, 36 50 Z" fill="#D4A84B"/>
+        <path d="M30 52 C34 42, 42 34, 56 34 C50 40, 46 46, 42 52 Z" fill="#E8D5A3"/>
+        <circle cx="40" cy="20" r="3.2" fill="#D4A84B"/>
+      </svg>
+      <div><b>拾光烘焙有限公司</b><small>Shiguang Bakery Co., Ltd.</small></div>
+    </div>
+    <nav class="ft-links" aria-label="页脚导航">
+      <a href="#about">关于</a><a href="#products">产品</a><a href="#craft">工艺</a><a href="#contact">联系</a>
+    </nav>
+    <p class="ft-copy">© 2026 拾光烘焙有限公司 · 示例站点<br>图片来自 Unsplash，详见 CREDITS.md</p>
+  </div>
+</footer>
+
+<script src="vendor/gsap.min.js" defer></script>
+<script src="vendor/ScrollTrigger.min.js" defer></script>
+<script src="js/gl.bundle.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
